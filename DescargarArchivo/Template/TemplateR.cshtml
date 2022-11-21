@@ -1,0 +1,67 @@
+﻿@using DescargarArchivo.Models;
+@model Modelo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		table, td, th {
+			border: 1px solid rgb(185, 159, 159);
+			text-align: left;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		th, td {
+			padding: 15px;
+		}
+
+		h1 {
+			text-align: center
+		}
+
+		body {
+			border: double;
+			padding-block: 10px;
+			box-shadow: 5px 4px 15px 3px grey;
+		}
+	</style>
+</head>
+<body>
+	<h1>Tabla de resultados</h1>
+	@if (Model.Data != null)
+	{
+
+
+		<table class="table table-responsive table-borderless" id="myTable">
+			<thead class="header-table">
+				<tr>
+					<th scope="col" class="title-card">Destino </th>
+					<th scope="col" class="title-card">Fecha</th>
+					<th scope="col" class="title-card">Monto </th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach(var datos in Model.Data)
+				{
+				<tr>
+					<td class="text-medium">@datos.Destino</td>
+					<td class="text-regular">@datos.Fecha</td>
+					<td class="text-monto">@datos.Monto</td>
+					
+				</tr>
+				}
+
+			</tbody>
+		</table>
+	}
+</body>
+</html>

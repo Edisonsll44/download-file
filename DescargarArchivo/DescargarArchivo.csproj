@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\config\data.json" />
+    <Content Remove="wwwroot\js\config\servicio.js" />
+    <Content Remove="wwwroot\js\config\util.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\config\util.js" />
+    <None Include="wwwroot\js\config\data.json" />
+    <None Include="wwwroot\js\config\servicio.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jquery.datatables" Version="1.10.15" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HtmlRenderer">
+      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\HtmlRenderer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlRenderer.PdfSharp">
+      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\HtmlRenderer.PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp.Charting">
+      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\PdfSharp.Charting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

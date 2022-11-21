@@ -1,0 +1,55 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+	<h1 class="display-4">Ejemplo de descarga</h1>
+	<h4>Author: Edison Sánchez</h4>
+	<p style="margin-top: 100px">Descarga toda la data de la tabla a un archivo PDF.</p>
+	<button type="button" class="btn btn-primary" id="downloadButton">Download</button>
+</div>
+<div class="container-fluid">
+	<table class="table table-responsive table-borderless" id="myTable">
+		<thead class="header-table" id="tableHeader">
+		</thead>
+		<tbody id="tableBody">
+		</tbody>
+	</table>
+</div>
+
+
+<table id="example" class="display" width="100%"></table>
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/config/cargaData.js"></script>
+<script src="~/js/config/util.js"></script>
+<script src="~/js/config/servicio.js"></script>
+<script>
+	jQuery(document).ready(function () {
+		var urlData = obtenerUrl();
+		urlData = concatenarUrl(urlData, "js/config/", "data.json");
+		cargarDatos(urlData);
+		$("button").click(function () {
+			var url = obtenerUrl();
+			url = concatenarUrl(url, "V1", "/Download/DownloadFile")
+
+			console.log(url);
+
+			var dataTabla = obtenerDatosTabla("myTable");
+			var jsonData = crearObjeto(dataTabla, 3);
+			postService(url, jsonData);
+
+
+
+
+
+
+		});
+
+
+
+
+	});
+</script>

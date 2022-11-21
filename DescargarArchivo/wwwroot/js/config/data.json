@@ -1,0 +1,82 @@
+{
+    "header":{
+        "etiqueta1": "Destino",
+        "etiqueta2": "Fecha",
+        "etiqueta3": "Monto",
+        "etiqueta4": "Accciones"
+    },
+    "data":[
+        {
+            "destino": "Herman0",
+            "fecha": "12 oct 2022",
+            "monto": "$20.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Hermana",
+            "fecha": "12 oct 2022",
+            "monto": "$20.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Padre",
+            "fecha": "10 oct 2022",
+            "monto": "$200.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Madre",
+            "fecha": "12 ene 2022",
+            "monto": "$100.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Tio",
+            "fecha": "01 oct 2022",
+            "monto": "$40.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Hermana",
+            "fecha": "11 feb 2022",
+            "monto": "$60.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Hermana",
+            "fecha": "8 mar 2022",
+            "monto": "$2000.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Tia",
+            "fecha": "12 jul 2022",
+            "monto": "$60.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Vecino",
+            "fecha": "2 abr 2022",
+            "monto": "$10.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Luz",
+            "fecha": "16 jul 2022",
+            "monto": "$28.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "Agua",
+            "fecha": "13 oct 2022",
+            "monto": "$20.00",
+            "acciones": "Detalle"
+        },
+        {
+            "destino": "internet",
+            "fecha": "1 oct 2022",
+            "monto": "$50.00",
+            "acciones": "Detalle"
+        }
+    ]
+}

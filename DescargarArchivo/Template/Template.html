@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th {
+            border: 1px solid rgb(185, 159, 159);
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        h1 {
+            text-align: center
+        }
+
+        body {
+            border: double;
+            padding-block: 10px;
+            box-shadow: 5px 4px 15px 3px grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de resultados</h1>
+    <table class="table table-responsive table-borderless" id="myTable">
+        <thead class="header-table">
+            <tr>
+                <th scope="col" class="title-card">Destino </th>
+                <th scope="col" class="title-card">Fecha</th>
+                <th scope="col" class="title-card">Monto </th>
+                <th scope="col" class="title-card">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-medium">Hermana</td>
+                <td class="text-regular">12 oct 2022</td>
+                <td class="text-monto">$20.00</td>
+                <td>
+                    <a href="" class="title-link" data-bs-toggle="modal" data-bs-target="#comprobanteModal">
+                        <img src="~/img/brand/coolicon.svg" /> Detalle
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-medium">Mama</td>
+                <td class="text-regular">22 oct 2022</td>
+                <td class="text-monto">$50.00</td>
+                <td>
+                    <a href="" class="title-link" data-bs-toggle="modal" data-bs-target="#comprobanteModal">
+                        <img src="~/img/brand/coolicon.svg" /> Detalle
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

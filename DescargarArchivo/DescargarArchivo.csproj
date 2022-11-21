@@ -25,21 +25,25 @@
 
   <ItemGroup>
     <Reference Include="HtmlRenderer">
-      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\HtmlRenderer.dll</HintPath>
+      <HintPath>..\dll\HtmlRenderer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlRenderer.PdfSharp">
-      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\HtmlRenderer.PdfSharp.dll</HintPath>
+      <HintPath>..\dll\HtmlRenderer.PdfSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PdfSharp">
-      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\PdfSharp.dll</HintPath>
+      <HintPath>..\dll\PdfSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PdfSharp.Charting">
-      <HintPath>..\..\..\..\..\..\Me\.Net\BGRBancaDigitalRef\BGRBancaDigitalWEB_Refac\Referencias\PdfSharp.Charting.dll</HintPath>
+      <HintPath>..\dll\PdfSharp.Charting.dll</HintPath>
       <Private>True</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Download\" />
   </ItemGroup>
 
 </Project>

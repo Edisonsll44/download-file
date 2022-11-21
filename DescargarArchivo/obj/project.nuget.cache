@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l3rtkDR5kqTU9GsI6hAv/qIqHMZQf/xA7rNsgIAsHyJun1QgWj2+B5QTmy63i8U1TwR5AW72ZRikQzvmiDizJg==",
+  "dgSpecHash": "wuuiz9W2UAYK/ZEByuloeX4N6nln1t2JtIwNnZPdeIvTEx4N/Qdt4wcaVXu3RcCcCwGanfZ11PF8LxH1zYcVSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\esanchez\\source\\repos\\DescargarArchivo\\DescargarArchivo\\DescargarArchivo.csproj",
+  "projectFilePath": "C:\\Users\\esanchez\\source\\repos\\DescargarArchivo\\download-file\\DescargarArchivo\\DescargarArchivo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esanchez\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
     "C:\\Users\\esanchez\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
